@@ -553,6 +553,95 @@ img
     margin-left: 5px;
     display: inline-block;
 }
+/*===== My-Journey =====*/
+.My-Journey .education,
+.My-Journey .experience
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 30px;
+}
+.My-Journey .section-title h3
+{
+    color: var(--text-black-900);
+}
+.My-Journey h3.title
+{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: var(--text-black-900);
+}
+.My-Journey .timeline-box
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.My-Journey .timeline
+{
+    background-color: var(--black-50);
+    padding: 30px 15px;
+    border: 1px solid var(--black-50);
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+.My-Journey .timeline .timeline-item
+{
+    position: relative;
+    padding-left: 37px;
+    padding-bottom: 50px;
+}
+.My-Journey .timeline .timeline-item:last-child
+{
+    padding-bottom: 0;
+}
+.My-Journey .timeline .timeline-item::before
+{
+    content: '';
+    width: 1px;
+    position: absolute;
+    height: 100%;
+    left: 7px;
+    top: 0;
+    background-color: var(--main-color);
+}
+.My-Journey .timeline .circle-dot
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+}
+.My-Journey .timeline .timeline-date
+{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: var(--text-black-700);
+}
+.My-Journey .timeline .timeline-date .fa
+{
+    margin-right: 5px;
+}
+.My-Journey .timeline .timeline-title
+{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: var(--text-black-900); 
+}
+.My-Journey .timeline .timeline-text
+{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--text-black-700);
+}
 /*===== skills =====*/
 .skill-section
 {
@@ -887,95 +976,6 @@ img
     font-size: 32px;
     line-height: 40px;
 }
-/*===== My-Journey =====*/
-.My-Journey .education,
-.My-Journey .experience
-{
-    flex: 0 0 50%;
-    max-width: 50%;
-    margin-top: 30px;
-}
-.My-Journey .section-title h3
-{
-    color: var(--text-black-900);
-}
-.My-Journey h3.title
-{
-    font-size: 24px;
-    margin-bottom: 30px;
-    font-weight: 700;
-    color: var(--text-black-900);
-}
-.My-Journey .timeline-box
-{
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-.My-Journey .timeline
-{
-    background-color: var(--black-50);
-    padding: 30px 15px;
-    border: 1px solid var(--black-50);
-    border-radius: 10px;
-    width: 100%;
-    position: relative;
-}
-.My-Journey .timeline .timeline-item
-{
-    position: relative;
-    padding-left: 37px;
-    padding-bottom: 50px;
-}
-.My-Journey .timeline .timeline-item:last-child
-{
-    padding-bottom: 0;
-}
-.My-Journey .timeline .timeline-item::before
-{
-    content: '';
-    width: 1px;
-    position: absolute;
-    height: 100%;
-    left: 7px;
-    top: 0;
-    background-color: var(--main-color);
-}
-.My-Journey .timeline .circle-dot
-{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    background-color: var(--main-color);
-}
-.My-Journey .timeline .timeline-date
-{
-    font-weight: 400;
-    font-size: 14px;
-    margin-bottom: 12px;
-    color: var(--text-black-700);
-}
-.My-Journey .timeline .timeline-date .fa
-{
-    margin-right: 5px;
-}
-.My-Journey .timeline .timeline-title
-{
-    font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 15px;
-    text-transform: capitalize;
-    color: var(--text-black-900); 
-}
-.My-Journey .timeline .timeline-text
-{
-    line-height: 25px;
-    font-size: 16px;
-    text-align: justify;
-    color: var(--text-black-700);
-}
 /*===== contact =====*/
 .contact-section
 {
@@ -1182,6 +1182,10 @@ footer .copyright-text
     .about-section .about-content .section-title
     {
         text-align: center;
+    }
+    .My-Journey .timeline .timeline-text
+    {
+        text-align: left;
     }
     .project .project-item,
     .skill-section .skill-item
