@@ -1178,12 +1178,12 @@ footer .copyright-text
         color: var(--text-black-900);
     }
     .home-section .home-text h4
-{
+    {
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 4px;
     color: var(--main-color);
-}
+    }
     .about-section .about-image
     {
         display: none;
