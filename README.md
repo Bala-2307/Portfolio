@@ -1,4 +1,4 @@
-# 👋 Hello, I'm Bala
+# 👋 Hello, I'm Balamurugan B
 
 🎓 **B.Sc. Computer Science Passed out in 2024 | Currently Persuing My MCA in Online**
 🎯 **Actively seeking IT roles** in Data Analytics, Web Analytics, or related domains
